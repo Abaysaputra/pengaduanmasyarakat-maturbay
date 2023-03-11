@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Lexend";
+    src: url('../font/Lexend-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lexend;
+}
+body {
+    /* background-image: url(../img/bg2.svg); */
+    background-size: cover;
+    width: 1342px auto;
+    height: 598px;
+    background: white;
+    border: 12px solid #1d3557;
+}
+
+.corner1 {
+    max-width: 250px;
+    height: 45px;
+    background: #1d3557;
+    /* border-left: 12px solid rgba(0, 175, 255, 0.65);
+    border-bottom: 12px solid rgba(0, 175, 255, 0.65); */
+    border-radius: 0px 0px 45px 0px;
+}
+
+/* .corner2 {
+    width: 250px;
+    height: 45px;
+    margin-left:1092px;
+    padding-top: 1px;
+    background: rgb(4, 0, 255, 0.7);
+    border-right: 12px solid rgba(0, 175, 255, 0.65);
+    border-top: 12px solid rgba(0, 175, 255, 0.65);
+    border-radius: 45px 0px 0px 0px;
+} */
+.title {
+    font-family: sans-serif;
+    max-width: 375px;
+    height: 445px;
+    margin: 54px auto;
+    background: white;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.75);
+}
+h1{
+    padding-top: 10px;
+    font-size:20px;
+    font-family: lexend;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-weight:50;
+    font-size:18px;
+    margin-top: 7px;
+    margin-left: 45px;
+    /* text-align: center; */
+}
+.title input[type="number"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.75);
+    padding: 7px 0px 18px 5px;
+    font-size: 15px;
+    width: 315px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+}
+.title input[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.75);
+    padding: 7px 0px 18px 5px;
+    font-size: 15px;
+    width: 315px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+}
+.title input[type="username"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.75);
+    padding: 7px 0px 18px 5px;
+    font-size: 15px;
+    width: 315px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+}
+.title input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.75);
+    padding: 7px 0px 18px 5px;
+    font-size: 15px;
+    width: 315px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+}
+.title input[type="date"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.75);
+    padding: 7px 0px 18px 5px;
+    font-size: 15px;
+    width: 315px;
+    outline: none;
+    color: black;
+    transition: 0.25s; 
+}.title label{
+    color: lightgrey;
+    margin-left: 30px;
+}
+
+
+.title input[type="checkbox"] {
+    margin-top: 10px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+.title input[type="text"]:focus, .title input[type="username"]:focus, .title input[type="password"]:focus  {
+    border-color: rgb(4, 0, 255);
+    background: none;
+}
+.submit {
+    background-color: rgb(1, 172, 66);
+    color: white;
+    border: solid 1px rgb(1, 172, 66);
+    border-radius: 3px;
+    padding: 8px 12px 11px 12px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 95px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.25s;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.submit:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 172, 66);
+    border: 1px solid rgb(1, 172, 66);
+    box-shadow: none;
+}
+
+.reset {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: solid 1px rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 8px 12px 11px 12px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.25s;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.reset:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: none;
+}
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+    transition: 0.25s;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}

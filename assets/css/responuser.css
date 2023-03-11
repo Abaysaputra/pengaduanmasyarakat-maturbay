@@ -1,0 +1,357 @@
+@font-face {
+    font-family: "Lexend";
+    src: url('../font/Lexend-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lexend;
+}
+
+body {
+    /* background-image: url(../img/bg2.svg); */
+    background-size: cover;
+}
+
+button {
+    font-family: Lexend;
+}
+
+/* .datetime {
+    color: white;
+    background: transparent;
+    font-family: "Segoe UI", sans-serif;
+    width: 250px;
+    padding: 12px 1px;
+    transition: 0.30s;
+    transition-property: background,
+        box-shadow;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.datetime:hover {
+    background: black;
+    box-shadow: 0 0 30px black;
+    width: 250px;
+    color: rgb(0, 153, 255);
+    transition: 0.30s;
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last-child) {
+    position: relative;
+    margin: 0 5px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child {
+    background: rgb(0, 153, 255);
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3px;
+    padding: 0 5px;
+    border-radius: 3px;
+} */
+.title img {
+    margin-left: 1074px;
+    padding-top: 2px;
+}
+
+.title h4 {
+    color: black;
+    margin-left: 1298px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: lexend;
+}
+
+.title {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+    height: 80px;
+}
+
+.text h1 {
+    padding-top: 15px;
+    color: black;
+    font-weight: 500;
+    margin-left: 235px;
+    font-size: 35px;
+    font-family: lexend;
+}
+
+h2 {
+    padding-top: 7px;
+    margin-left: 10px;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 13px;
+    border-bottom: 1px solid white;
+    font-family: monospace;
+}
+
+.badan {
+    height: 667px;
+    /* background: linear-gradient(135deg, rgba(255, 255, 255.1) rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+    width: 1366px;
+}
+
+.bingkai .badan .sidebar {
+    background: rgba(4, 0, 255, 0.65);
+    float: left;
+    width: 225px;
+    height: 667px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.content {
+    margin-top: 19px;
+    float: left;
+    margin-left: 10px;
+    width: 82%;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(255, 255, 255, 0.75);
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+}
+
+/* .no {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+
+.nik {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+
+.nama {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+
+.nohp {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+
+.lvl {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+
+.stts {
+    padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 5px;
+} */
+
+.bingkai .badan .sidebar .home button {
+    background-color: transparent;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    transition: 0.1s;
+    border-radius: 25px;
+}
+
+.bingkai .badan .sidebar .home button:hover {
+    background-color: rgba(255, 255, 255, 0.70);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.bingkai .badan .sidebar .datapengaduan button:hover {
+    background-color: rgba(255, 255, 255, 0.70);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.bingkai .badan .sidebar .datapengaduan button {
+    background-color: transparent;
+    width: 200px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    transition: 0.1s;
+    border-radius: 25px;
+}
+.bingkai .badan .sidebar .datapengguna button {
+    background-color: transparent;
+    width: 200px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    transition: 0.1s;
+    border-radius: 25px;
+}
+
+.bingkai .badan .sidebar .datapengguna button:hover {
+    background-color: rgba(255, 255, 255, 0.70);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+.bingkai .badan .sidebar .respon button {
+    background-color: rgb(125, 251, 255);
+    width: 200px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    color: rgb(4, 0, 255);
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    transition: 0.1s;
+    border-radius: 25px;
+    /* box-shadow: -10px 0px 2px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: -10px 0px 2px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: -10px 0px 2px 0px rgba(0, 0, 0, 0.75) inset; */
+}
+.logout button {
+    margin-top: 315px;
+    margin-left: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+    padding: 2px 7px;
+    width: 125px;
+    height: 35px;
+    background: none;
+    font-family: lexend;
+    color: white;
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.logout button:hover {
+    margin-left: 40px;
+    color: rgba(4, 0, 255, 0.65);
+    background: white;
+    border: 3px solid rgba(4, 0, 255, 0.65);
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px 45px 5px 45px;
+    /* border-radius: 5px; */
+}
+
+
+/* .bingkai .badan .search input {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    border: solid 1px rgb(4, 0, 255);
+    width: 35%;
+    color: black;
+    padding: 11px;
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    transition: 0.25s;
+}
+.bingkai .badan .search input:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+}
+.bingkai .badan .search .cari {
+    background-color: rgb(4, 0, 255);
+    color: white;
+    border: solid 1px rgb(4, 0, 255);
+    border-radius: 8px;
+    padding: 8px 12px 11px 12px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.bingkai .badan .search .cari:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(4, 0, 255);
+    border: 1px solid rgb(4, 0, 255);
+    border-radius: 25px;
+}
+
+.bingkai .badan .search .reset {
+    background-color: red;
+    color: white;
+    border: solid 1px red;
+    border-radius: 8px;
+    padding: 8px 12px 11px 12px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.bingkai .badan .search .reset:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    color: red;
+    border: 1px solid red;
+    border-radius: 25px;
+} */

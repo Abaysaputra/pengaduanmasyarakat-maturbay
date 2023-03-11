@@ -1,0 +1,10 @@
+.jumbotron .content{
+    width: 200px;
+    background-image: url('../img/background.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+/* .jumbotron .content img.logo{
+    width: 30px;
+    margin-top: 80px;
+} */

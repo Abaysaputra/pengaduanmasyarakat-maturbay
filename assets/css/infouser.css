@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Lexend";
+    src: url('../font/Lexend-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lexend;
+}
+
+body {
+    /* background-image: url(../img/bg2.svg); */
+    background-size: cover;
+    width: 1342px auto;
+    height: 643px;
+    background: white;
+    border: 12px solid #1d3557;
+}
+
+/* .corner1 {
+    width: 125px;
+    height: 95px;
+    margin-left: 1217px;
+    background: rgb(4, 0, 255, 0.7);
+    border-left: 12px solid rgba(0, 175, 255, 0.65);
+    border-bottom: 12px solid rgba(0, 175, 255, 0.65);
+    border-radius: 0px 0px 0px 45px;
+}
+
+.corner2 {
+    width: 125px;
+    height: 95px;
+    padding-top: 1px;
+    background: rgb(4, 0, 255, 0.7);
+    border-right: 12px solid rgba(0, 175, 255, 0.65);
+    border-top: 12px solid rgba(0, 175, 255, 0.65);
+    border-radius: 0px 45px 0px 0px;
+} */
+.info {
+    margin-left: 25px;
+    width: 720px;
+    height: 575px;
+    margin: 5px auto;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 1px;
+    margin-left: 15px;
+}
+
+img {
+    margin-left: 75px;
+}
+
+/* h3{
+    font-size: 15px;
+    padding-left: 15px;
+} */
+.isi {
+    display: grid;
+    max-width: 100%;
+    min-width: 95.5%;
+    height: 42%;
+    margin-left: 15px;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+
+a {
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(4, 0, 255);
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.respon {
+    width: 75px;
+    margin-left: 517px;
+    background: rgb(1, 0, 255);
+    border: 2px solid rgb(1, 0, 255);
+    text-decoration: none;
+    padding: 1px 3px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    transition: 0.25s;
+}
+
+.respon:hover {
+    background: none;
+    border: 2px solid rgb(1, 0, 255);
+    color: rgb(1, 0, 255);
+    text-decoration: none;
+}
